@@ -856,7 +856,8 @@
 /* Nav */
 
 	#nav {
-		position: absolute;
+		position: fixed;
+		z-index: 999999;
 		display: block;
 		top: 2.5em;
 		left: 0;
